@@ -1,7 +1,5 @@
 #ifndef JOGADOR_H_INCLUDED
 #define JOGADOR_H_INCLUDED
-#include "localidade.h"
-#include "tabuleiro.h"
 typedef struct{
     char nome[50];
     float dinheiro;
