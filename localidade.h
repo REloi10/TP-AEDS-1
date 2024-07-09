@@ -1,13 +1,21 @@
 #ifndef LOCALIDADE_H_INCLUDED
 #define LOCALIDADE_H_INCLUDED
 
-typedef struct Celula{
-    int endereco;
-    char cor;
+typedef struct{
+    char endereco[100];
+    char cor[15];
     float custo_de_compra;
     float valor_de_aluguel;
-    struct Celula *prox;
-    ///////
 }localidade;
+
+
+typedef struct Celula {
+ localidade local;
+ struct Celula* prox;
+}Celula;
+
+typedef Celula* Apontador;
+
+
 
 #endif // LOCALIDADE_H_INCLUDED
