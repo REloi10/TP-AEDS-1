@@ -4,8 +4,8 @@
 typedef struct{
     char endereco[100];
     char cor[15];
-    float custo_de_compra;
-    float valor_de_aluguel;
+    int custo_de_compra;
+    int valor_de_aluguel;
 }localidade;
 
 
@@ -15,7 +15,5 @@ typedef struct Celula {
 }Celula;
 
 typedef Celula* Apontador;
-
-
 
 #endif // LOCALIDADE_H_INCLUDED
